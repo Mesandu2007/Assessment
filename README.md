@@ -131,12 +131,9 @@ JWT_SECRET=your_secret
 Go to MongoDB Atlas
 Create cluster
 Copy connection string
-Run Backend
-npm run dev
+Run Backend:nodemon server.js
+Backend runs at: http://localhost:5000
 
-Backend runs at:
-
-http://localhost:5000
 🌐 Frontend Setup
 cd frontend
 npm install
@@ -144,9 +141,7 @@ npm install axios react-router-dom
 Run Frontend
 npm run dev
 
-Frontend runs at:
-
-http://localhost:5173
+Frontend runs at: http://localhost:5173
 🔌 API ENDPOINTS
 Auth Routes
 POST   /api/auth/register
