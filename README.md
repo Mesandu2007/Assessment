@@ -8,7 +8,8 @@ TradeConnect is a full-stack MERN application where users can:
 - Post trade job requests
 - View all jobs publicly
 - Update job status
-- Delete only their own jobs
+- Delete only the jobs you posted
+
 
 ---
 
