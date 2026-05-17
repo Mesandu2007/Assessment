@@ -56,6 +56,7 @@ TradeConnect is a full-stack MERN application where users can:
 
 ### Backend
 
+```
 Backend
 ├── config
 │   └── db.js
@@ -77,20 +78,37 @@ Backend
 │
 ├── server.js
 └── .env
+```
 
+```
 
 ### Frontend
-
-frontend
+Frontend
+├── public
+│
 ├── src
-│ ├── api
-│ ├── components
-│ ├── pages
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── api
+│   │   └── service.js
+│
+│   ├── assets
+│
+│   ├── components
+│   │   └── Navbar.jsx
+│
+│   ├── pages
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── CreateJob.jsx
+│
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── App.css
+│   └── index.css
+│
 ├── index.html
-└── package.json
-
+├── package.json
+└── postcss.config.js
 
 ---
 
