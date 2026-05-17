@@ -56,11 +56,25 @@ TradeConnect is a full-stack MERN application where users can:
 
 ### Backend
 
-backend
+Backend
+├── config
+│   └── db.js
+│
 ├── controllers
+│   ├── authController.js
+│   └── jobController.js
+│
 ├── middleware
+│   └── authMiddleware.js
+│
 ├── models
+│   ├── User.js
+│   └── JobRequest.js
+│
 ├── routes
+│   ├── authRoutes.js
+│   └── jobRoutes.js
+│
 ├── server.js
 └── .env
 
